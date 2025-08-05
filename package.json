@@ -52,5 +52,9 @@
     "stylelint": "~13.3",
     "stylelint-config-standard": "~20.0",
     "vinyl-fs": "~3.0"
+  },
+  "dependencies": {
+    "@asciidoctor/tabs": "^1.0.0-beta.6",
+    "asciidoctor": "^3.0.4"
   }
 }
