@@ -1,0 +1,10 @@
+<article class="doc">
+{{#with page.title}}
+<h1 class="page">{{{this}}}
+<br><button id="tooltipButton" class="badge badge-deprecated" data-tippy-content="This feature is still available, but ThoughtSpot is no longer developing it and will remove it in a future release.">Deprecated</button></h1>
+<!-- <br><span class="badge badge-early-access">Early Access</span></h1> -->
+{{/with}}
+{{{page.contents}}}
+{{> feedback}}
+{{> pagination}}
+</article>

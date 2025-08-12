@@ -36,3 +36,7 @@ a + .breadcrumbs {
 .breadcrumbs li:last-of-type::after {
   content: none;
 }
+
+.look-at-our-search li {
+  align-content: flex-end;
+}
