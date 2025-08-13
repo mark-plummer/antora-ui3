@@ -3,3 +3,13 @@
     display: flex;
   }
 }
+
+.body-bar {
+    content: " ";
+    display: block;
+    background: linear-gradient(270deg, #fba76f 0, #d89af0 29%, #99d8da 67%, #0a6cf9 96%);
+    height: 1px;
+    width: 100%;
+    /* margin-top: 30px; */
+}
+
